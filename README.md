@@ -167,3 +167,17 @@ This experiment demonstrates the use of decision making control structures (if, 
    - Move to the next line.  
 5. End.
 
+# 10.reverse of a string:
+
+1. Start
+2. Declare integer variables: prn, a, s.
+3. Initialize s = 0.
+4. Prompt the user: "Enter your PRN:"
+5. Read input into prn.
+6. While prn > 0, do:
+    a. a = prn % 10  
+    b. prn = prn / 10 
+    c. s = s * 10 + a 
+7. End While loop
+8. Print "Reversed PRN: " followed by s.
+9. End
