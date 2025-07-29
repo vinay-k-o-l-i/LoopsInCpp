@@ -92,26 +92,7 @@ This experiment demonstrates the use of decision making control structures (if, 
     a. Print "Password accepted!"
 9. End
 
-
-# 4.reverse of a string:
-
-1. Start
-2. Declare integer variables: prn, a, s.
-3. Initialize s = 0.
-4. Prompt the user: "Enter your PRN:"
-5. Read input into prn.
-6. While prn > 0, do:
-    a. a = prn % 10  
-    b. prn = prn / 10 
-    c. s = s * 10 + a 
-7. End While loop
-8. Print "Reversed PRN: " followed by s.
-9. End
-
-
-Certainly! Below are the clear, stepwise, human-friendly algorithms for **all the provided codes**, written in the same style as your example.
-
-# 5.Alphabet_Pattern:
+# 4.Alphabet_Pattern:
 
 1. Start  
 2. Declare integer variables `i` and `j`.  
@@ -124,7 +105,7 @@ Certainly! Below are the clear, stepwise, human-friendly algorithms for **all th
    - Move to the next line.  
 6. End.
 
-# 6.Floyd-s_Series:
+# 5.Floyd-s_Series:
 
 1. Start  
 2. Declare integer variables `i`, `j`, and `x`.  
@@ -138,7 +119,7 @@ Certainly! Below are the clear, stepwise, human-friendly algorithms for **all th
    - Move to the next line.  
 6. End.
 
-# 7.Hourglass_pattern:
+# 6.Hourglass_pattern:
 
 1. Start  
 2. Declare integer variables as needed.  
@@ -154,6 +135,15 @@ Certainly! Below are the clear, stepwise, human-friendly algorithms for **all th
      - Print `i` stars separated by a space.  
      - Move to the next line.  
 6. End.
+
+# 7.Test:
+
+1. Start  
+2. For `i` from 1 to 2 (outer loop):  
+   - Print `"Outer:"` followed by the value of `i`.  
+   - For `j` from 1 to 2 (inner loop):  
+     - Print `"Inner:"` followed by the value of `j`.  
+3. End.
 
 # 8.pattern_1:
 
@@ -177,11 +167,3 @@ Certainly! Below are the clear, stepwise, human-friendly algorithms for **all th
    - Move to the next line.  
 5. End.
 
-# 10.Test:
-
-1. Start  
-2. For `i` from 1 to 2 (outer loop):  
-   - Print `"Outer:"` followed by the value of `i`.  
-   - For `j` from 1 to 2 (inner loop):  
-     - Print `"Inner:"` followed by the value of `j`.  
-3. End.
